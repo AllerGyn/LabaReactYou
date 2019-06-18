@@ -15,7 +15,7 @@ export default class extends Comp {
     this.state = {
       videos: [],
       selectedVideo: null,
-      term: 'ITMO'
+      term: 'Avengers'
     };
 
     this.videoSearch(this.state.term);
